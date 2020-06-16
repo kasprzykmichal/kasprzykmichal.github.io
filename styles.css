@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Main';
+    src: url(/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Main';
+    src: url(/SourceSansPro-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    background: #f5f5f7;
+    color: #000;
+    font-family: 'Main';
+    max-width: 800px;
+    margin: auto;
+}
+
+
+#work-in-progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
