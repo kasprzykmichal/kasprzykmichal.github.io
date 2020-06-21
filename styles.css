@@ -1,12 +1,44 @@
 @font-face {
     font-family: 'Main';
-    src: url(/SourceSansPro-Regular.ttf);
+    src: url(/fonts/SourceSansPro-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Main';
-    src: url(/SourceSansPro-Bold.ttf);
+    src: url(/fonts/SourceSansPro-Bold.ttf);
     font-weight: bold;
+}
+
+@font-face {
+    font-family: "Code";
+    src: url(/fonts/SourceCodePro-Regular.ttf);
+}
+
+header {
+    height: 50px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.site-name {
+    float: left;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    vertical-align: middle;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+#site-name {
+    font-size: 1.5em;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    vertical-align: middle;
+    line-height: 30px;
 }
 
 body {
@@ -17,10 +49,158 @@ body {
     margin: auto;
 }
 
+#post {
+    margin: auto;
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
-#work-in-progress {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#post-title {
+    text-decoration: none;
+}
+
+#post-date {
+    color: #6e6e73;
+    font-size: 0.8em;
+}
+
+#post-description {
+    margin-top: 10px;
+}
+
+#post-read-more {
+    text-align: right;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+#post-content {
+    margin-top: 10px;
+}
+
+#post-content a {
+    text-decoration: underline;
+}
+
+#page {
+    margin: auto;
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#page a {
+    text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  position: static;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: #8a8a8a;
+}
+
+.copy {
+    margin-bottom: 5px;
+}
+
+#links {
+    margin-top: 5px;
+}
+
+#links .link {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+a.link {
+    text-decoration: underline;
+}
+
+hr {
+    border-color: #6e6e73;
+    border-top: 0px;
+    opacity: 0.1;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: inherit;
+}
+
+pre {
+    margin-bottom: 1.5em;
+    background-color: #1a1a1a;
+    padding: 16px 0;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+pre code {
+    font-family: "Code", monospace;
+    display: block;
+    padding: 0 20px;
+    color: #a9bcbc;
+    line-height: 1.4em;
+    font-size: 0.95em;
+    overflow-x: auto;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+}
+
+pre code .keyword {
+    color: #e73289;
+}
+
+pre code .type {
+    color: #8281ca;
+}
+
+pre code .call {
+    color: #348fe5;
+}
+
+pre code .property {
+    color: #21ab9d;
+}
+
+pre code .number {
+    color: #db6f57;
+}
+
+pre code .string {
+    color: #fa641e;
+}
+
+pre code .comment {
+    color: #6b8a94;
+}
+
+pre code .dotAccess {
+    color: #92b300;
+}
+
+pre code .preprocessing {
+    color: #b68a00;
 }
