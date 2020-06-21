@@ -16,8 +16,9 @@
 
 header {
     height: 50px;
-    margin: auto;
     margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .site-name {
@@ -54,6 +55,8 @@ body {
     clear: both;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #post-title {
@@ -88,6 +91,8 @@ body {
     clear: both;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #page a {
